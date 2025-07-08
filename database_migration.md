@@ -7,6 +7,7 @@
 sudo -i
 sudo apt update
 sudo apt install mysql-server -y
+sudo apt update && sudo apt install -y vim
 ````
 
 ---
@@ -54,10 +55,12 @@ EXIT;
 ### Step 4. Allow Remote Connections
 
 Edit the MySQL config:
-
+sudo apt update && sudo apt install -y vim
 ```bash
-sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf  COME OUT FROM ROOT TYPE IN SSH (vi /etc/mysql/mysql.conf.d/mysqld.cnf)
-```
+
+vi /etc/mysql/mysql.conf.d/mysqld.cnf  
+
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf  (no)
 
 Look for:
 
