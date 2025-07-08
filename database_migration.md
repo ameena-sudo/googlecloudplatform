@@ -55,7 +55,7 @@ EXIT;
 Edit the MySQL config:
 
 ```bash
-sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf   (vi /etc/mysql/mysql.conf.d/mysqld.cnf)
 ```
 
 Look for:
