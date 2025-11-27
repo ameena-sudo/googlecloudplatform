@@ -36,3 +36,4 @@ sudo vi /etc/fstab
 UUID=5992e512-9d76-4bdf-b592-d5bd96b0ae73 /softwares   ext4    defaults          0    1
 
 ```
+....
